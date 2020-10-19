@@ -480,26 +480,25 @@ border-radius: 4px;
 
 }
 
-/* .hero .button.primery {
+ .hero .button.primery {
 	background-color: var(--acent-color);
 	color: var(--white-color);
 	text-decoration: none;
-	outline: none; */
+	outline: none; 
 }
 
-/* .button.secondary {
+ .button.secondary {
 	background-color: var(--bcg-lightgrey-color);
 	color: var(--title-color);
 	text-decoration: none;
-} */
+} 
 
-/* .button.secondary:hover,
+.button.secondary:hover,
 .button.secondary:focus {
 	background-color: var(--acent-color);
 	color: var(--white-color);
 	text-decoration: none;
-} */
-
+} 
 /* ===========Page PORTFOLIO=========== */
 
  .btn {
