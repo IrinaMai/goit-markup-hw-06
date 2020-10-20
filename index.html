@@ -413,31 +413,31 @@
 					<h3 class="subtitle">Оставьте свои данные, мы вам перезвоним</h3>
 
 					<form action="#" method="GET" class="modal-form">
-						<label for="name" class="label-form">
-							Имя
+						<div class="modal-user">
+							<label for="name" class="label-form">Имя</label>
 							<svg class="form-svg">
 								<use href="./img/svg/sprite.svg#icon-person-black"></use>
 							</svg>
-							<input class="contact-input" type="text" name="name" id="name" minlength="2" />
-						</label>
-						<label for="phone" class="label-form">
-							Телефон
+							<input class="contact-input" type="text" name="user-name" id="name" minlength="2" />
+						</div>
+						<div class="modal-user">
+							<label for="phone" class="label-form">Телефон</label>
 							<svg class="form-svg">
 								<use href="./img/svg/sprite.svg#icon-phone-black"></use>
 							</svg>
-							<input class="contact-input" type="tel" name="phone" id="phone" minlength="7" />
-						</label>
-						<label for="email" class="label-form">
-							Почта
+							<input class="contact-input" type="tel" name="user-phone" id="phone" minlength="7" />
+						</div>
+						<div class="modal-user">
+							<label for="email" class="label-form">Почта</label>
 							<svg class="form-svg">
 								<use href="./img/svg/sprite.svg#icon-email-black"></use>
 							</svg>
-							<input class="contact-input" type="email" id="email" name="emale" />
-						</label>
-						Комментарий
-						<label for="comment" class="label-form">
-							<textarea class="comment-input" name="comment" id="comment" cols="30" rows="10"></textarea>
-						</label>
+							<input class="contact-input" type="email" id="email" name="user-emale" />
+						</div>
+						<div class="modal-user">
+							<label for="comment" class="label-form">Комментарий</label>
+							<textarea class="comment-input" name="user-comment" id="comment" cols="30" rows="10"></textarea>
+						</div>
 
 						<label for="agreement">
 							<input type="checkbox" id="agreement" name="agreement" value="accept polithy" class="checkbox" checked />
