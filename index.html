@@ -59,8 +59,7 @@
 			<section class="hero">
 				<div class="hero-container">
 					<h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-					<button type="button" class="button primery" data-modal-open>Заказать услугу</button>
-					<!-- <a href="" class="button primery" data-modal-open>Заказать услугу</a> -->
+					<button type="button" class="button" data-modal-open>Заказать услугу</button>
 				</div>
 			</section>
 
@@ -329,7 +328,7 @@
 
 		<!-- Footer -->
 		<footer class="footer">
-			<div class="container">
+			<div class="container footer-container">
 				<div class="foot-address">
 					<a href="./index.html" class="logo-link" aria-label="логотип веб-студии">
 						Web
@@ -352,7 +351,7 @@
 				</div>
 
 				<div class="footer-social">
-					<p>Присоединяйтесь</p>
+					<p class="footer-subtitle">Присоединяйтесь</p>
 					<ul class="social list">
 						<li>
 							<a href="" class="social link">
@@ -384,6 +383,21 @@
 						</li>
 					</ul>
 				</div>
+
+				<div class="footer-email">
+					<p class="footer-subtitle">Подпишитесь на рассылку</p>
+					<form action="" class="form-email">
+						<label for="subscribe-email">
+							<input type="email" id="subscribe-email" placeholder="E-mail" class="footer-input" />
+						</label>
+						<button type="button" class="button foot">
+							Подписаться
+							<svg class="email-svg" width="24" height="24">
+								<use href="./img/svg/sprite.svg#icon-icon-send"></use>
+							</svg>
+						</button>
+					</form>
+				</div>
 			</div>
 		</footer>
 
@@ -391,10 +405,48 @@
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
 				<button type="button" data-modal-close class="close-modal">
-					<svg modal-svg width="14" height="14">
+					<svg class="modal-svg" width="14" height="14">
 						<use href="./img/svg/sprite.svg#icon-close-black"></use>
 					</svg>
 				</button>
+				<div class="modal-block">
+					<h3 class="subtitle">Оставьте свои данные, мы вам перезвоним</h3>
+
+					<form action="#" method="GET" class="modal-form">
+						<label for="name" class="label-form">
+							Имя
+							<svg class="form-svg">
+								<use href="./img/svg/sprite.svg#icon-person-black"></use>
+							</svg>
+							<input class="contact-input" type="text" name="name" id="name" minlength="2" />
+						</label>
+						<label for="phone" class="label-form">
+							Телефон
+							<svg class="form-svg">
+								<use href="./img/svg/sprite.svg#icon-phone-black"></use>
+							</svg>
+							<input class="contact-input" type="tel" name="phone" id="phone" minlength="7" />
+						</label>
+						<label for="email" class="label-form">
+							Почта
+							<svg class="form-svg">
+								<use href="./img/svg/sprite.svg#icon-email-black"></use>
+							</svg>
+							<input class="contact-input" type="email" id="email" name="emale" />
+						</label>
+						Комментарий
+						<label for="comment" class="label-form">
+							<textarea class="comment-input" name="comment" id="comment" cols="30" rows="10"></textarea>
+						</label>
+
+						<label for="agreement">
+							<input type="checkbox" id="agreement" name="agreement" value="accept polithy" class="checkbox" checked />
+							Соглашаюсь с рассылкой и принимаю
+							<a href="" class="agreement">Условия договора</a>
+						</label>
+						<button type="submit" class="button">Отправить</button>
+					</form>
+				</div>
 			</div>
 		</div>
 
