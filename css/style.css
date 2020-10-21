@@ -671,7 +671,7 @@ header {
 .close-modal:hover .modal-svg,
 .close-modal:fcus .modal-svg{
 	fill: var(--acent-color);
-}
+} 
 
 .is-hidden {
 	opacity: 0;
