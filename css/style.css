@@ -659,12 +659,16 @@ header {
 	border-radius: 50%;
 	outline: none;
 	cursor: pointer;
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* поставить по центру */
 .modal-svg {
 	display: block;
 	margin: auto;
+}
+.close-modal:hover .modal-svg {
+	fill: var(--acent-color);
 }
 
 .is-hidden {
