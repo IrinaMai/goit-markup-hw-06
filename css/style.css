@@ -667,7 +667,9 @@ header {
 	display: block;
 	margin: auto;
 }
-.close-modal:hover .modal-svg {
+
+.close-modal:hover .modal-svg,
+.close-modal:fcus .modal-svg{
 	fill: var(--acent-color);
 }
 
