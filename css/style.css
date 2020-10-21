@@ -632,7 +632,7 @@ header {
 }
 .modal {
 	position: absolute;
-	top: 215зч;
+	top: 215px;
 	left: 50%;
 	transform: translate(-50%, 0);
 
