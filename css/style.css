@@ -632,10 +632,9 @@ header {
 }
 .modal {
 	position: absolute;
-	top: 215px;
+	top: 50%;
 	left: 50%;
-	transform: translate(-50%, 0);
-
+	transform: translate(-50%, -50%);
 	width: 528px;
 	height: 581px;
 	background-color: #ffffff;
@@ -667,6 +666,11 @@ header {
 	margin: auto;
 }
 .close-modal:hover .modal-svg {
+	fill: var(--acent-color);
+}
+
+.close-modal:hover .modal-svg,
+.close-modal:fcus .modal-svg {
 	fill: var(--acent-color);
 }
 
